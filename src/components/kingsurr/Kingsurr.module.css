@@ -1,0 +1,40 @@
+.head {
+  background-image: url(1-head.png); 
+  max-width: 1440px;
+  height: 891px;
+  display: flex;
+  justify-content: center;
+  color: var(--white-color);
+}
+
+.announc {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: center;
+  max-width: 1270px;
+  height:432px;
+  gap: 30px;
+  margin-top: 150px;
+}
+
+.main {
+  font-family: Jost;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 79px;
+}
+
+.king {
+  font-family: Mak;
+  font-size: 77px;
+  font-weight: 700;
+}
+
+.dali-date {
+  display: flex; 
+  font-family: Jost;
+  font-size: 35px;
+  font-weight: 300;
+  gap: 410px;
+}
