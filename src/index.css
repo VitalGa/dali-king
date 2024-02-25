@@ -22,8 +22,7 @@
 }
 
 body {
-  font-family: 'Mak-Light', 'Mak-Bold', sans-serif;
-  font-family: "Jost", sans-serif;
+  font-family: 'Mak-Light', 'Mak-Bold', "Jost",  sans-serif;  
   margin: 0;
 }
 

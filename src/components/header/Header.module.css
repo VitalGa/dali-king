@@ -43,7 +43,8 @@
   gap: 20px;
 }
 
-.text {  
+.text { 
+  font-family: var(--font-jost-regular); 
   font-size: 18px;
   font-weight: 400; 
 }
