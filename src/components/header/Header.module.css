@@ -12,16 +12,8 @@
 .logo {
   display: flex;
   align-items:center;
-  width: 251px;
-  height: 75px;
   gap: 25px;
   margin-right: 120px;
-}
-
-.logo img {  
-  top: 29px;
-  left: 85px;
-  gap: 15px;  
 }
 
 .text-museum {
@@ -47,24 +39,13 @@
 
 .search-block {
   display: flex;
-  align-items:center;
-  width: 88px;
-  height: 40px;
-  top: 48px;
-  left: 1267px;
+  align-items:center;  
   gap: 20px;
 }
 
-.search-block img {
-  width: 28px;
-  height: 28px;
-}
-
-.text {
-  font-family: Jost;
-font-size: 18px;
-font-weight: 400;
-line-height: 18px;
+.text {  
+  font-size: 18px;
+  font-weight: 400; 
 }
 
 
