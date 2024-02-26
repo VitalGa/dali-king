@@ -37,16 +37,34 @@
   color: var(--text-color)
 }
 
+.menu a:hover {
+  color: var(--dali-color);
+}
+
 .search-block {
   display: flex;
   align-items:center;  
   gap: 20px;
+  
+}
+
+.search-block img {
+  cursor: pointer;
+}
+
+.search-block img:hover {
+  background-color: var(--dali-color);
 }
 
 .text { 
   font-family: var(--font-jost-regular); 
   font-size: 18px;
   font-weight: 400; 
+  cursor: pointer;
+}
+
+.text:hover {
+  color: var(--dali-color);
 }
 
 
