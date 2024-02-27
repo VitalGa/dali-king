@@ -3,6 +3,7 @@ import Button from '../button/Button';
 import Marquee from "react-fast-marquee";
 
 function Kingsurr() {
+  
   return (
   <div className={styles['head']}>
       <div className={styles['announc']}> 
@@ -14,13 +15,12 @@ function Kingsurr() {
         </div> 
         <Button>Купить билет</Button>  
             <div className={styles['marquee']}>
-              {/* <Marquee > */}
-                <span className={styles['text']}>Король сюрреализма&nbsp;&nbsp;&nbsp;Король сюрреализма&nbsp;&nbsp;&nbsp;Король сюрреализма&nbsp;&nbsp;&nbsp;Король сюрреализма&nbsp;&nbsp;&nbsp;Король сюрреализма&nbsp;&nbsp;&nbsp;</span>
-              {/* </Marquee>               */}
-              </div> 
+                <Marquee className={styles['text']}>
+                  Король сюрреализма&nbsp;&nbsp;&nbsp;Король сюрреализма&nbsp;&nbsp;&nbsp;Король сюрреализма&nbsp;&nbsp;&nbsp;Король сюрреализма&nbsp;&nbsp;&nbsp;Король сюрреализма&nbsp;&nbsp;&nbsp;
+                </Marquee> 
+            </div> 
       </div>
     </div>
-      
   )
 }
 
