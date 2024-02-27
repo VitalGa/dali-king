@@ -1,11 +1,13 @@
+import Header from "../../components/header/Header"
 
 
-const schedule = () => {
+const Schedule = () => {
   return (
-    <div>
-      Расписание
-    </div>
+    <>
+    <Header/>
+    <div>Расписание</div>
+    </>
   )
 }
 
-export default schedule
+export default Schedule
