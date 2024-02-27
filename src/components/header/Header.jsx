@@ -1,4 +1,6 @@
+import { Link, NavLink } from 'react-router-dom';
 import styles from './Header.module.css';
+import cn from 'classnames'
 
 function Header() {
   return (
@@ -8,10 +10,18 @@ function Header() {
           <div className={styles['text-museum']}>Музей <br /> Сюрреализма</div>
         </div>
         <div className={styles['menu']}>
-          <a href="">Главная</a>
-          <a href="">Выставки</a>
-          <a href="">Блог</a>
-          <a href="">О музее</a>
+          <NavLink to="/" className={({isActive}) => cn(styles['link'], {
+            [styles.active]: isActive
+          })}>Главная</NavLink>
+          <NavLink to="/exhibitions" className={({isActive}) => cn(styles['link'], {
+            [styles.active]: isActive
+          })}>Выставки</NavLink>
+          <NavLink to="/schedule" className={({isActive}) => cn(styles['link'], {
+            [styles.active]: isActive
+          })}>Расписание</NavLink>
+          <NavLink to="/about" className={({isActive}) => cn(styles['link'], {
+            [styles.active]: isActive
+          })}>О музее</NavLink>
         </div>
         <div className={styles['search-block']}>
           <span className={styles['text']}>En</span>

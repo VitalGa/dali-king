@@ -26,18 +26,22 @@
 .menu {
   display: flex;  
   margin-right: 60px;
-  gap: 60px;
+  gap: 50px;
   font-family: var(--font-jost-regular);
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
 }
 
-.menu a {
+.link {
   text-decoration: none;
   color: var(--text-color)
 }
 
-.menu a:hover {
+.active {
+  color: var(--dali-color)
+}
+
+.link:hover {
   color: var(--dali-color);
 }
 
