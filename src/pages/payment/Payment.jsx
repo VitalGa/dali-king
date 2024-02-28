@@ -1,4 +1,4 @@
- 
+
 
 const Payment = () => {
   return (

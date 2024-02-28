@@ -1,10 +1,8 @@
-import styles from './Exhibitions.module.css';
-import Header from '../../components/header/Header';
+import styles from './Exhibitions.module.css'; 
 
 const Exhibitions = () => {
   return (
     <>
-      <Header/>
       Выставки
     </>
   )

@@ -7,13 +7,18 @@ import Exhibitions from './pages/Exhibition/Exhibitions.jsx'
 import Schedule from './pages/Schedule/Schedule.jsx'
 import Error from './pages/Error/Error.jsx'
 import About from './pages/About/About.jsx'
+import Layout from './layout/Menu.jsx'
 
 const router = createBrowserRouter([
   {
     path: '/',
+    element: <Layout />,
+    children: [
+      {
+    path: '/',
     element: <Main />
   },
-  {
+      {
     path: '/exhibitions',
     element: <Exhibitions />
   },
@@ -25,6 +30,8 @@ const router = createBrowserRouter([
     path: '/about',
     element: <About />
   },
+    ]
+  },  
   {
     path: '*',
     element: <Error />

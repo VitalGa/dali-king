@@ -1,7 +1,13 @@
+#root {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
 :root {
   --font-mak-light: 'Mak-Light', sans-serif;
   --font-mak-bold: 'Mak-Bold', sans-serif;
-  /* --font-jost-light: 'Jost-Light', sans-serif; */
   --font-jost-regular: 'Jost', sans-serif;
   --white-color: #FFFFFF;
   --black-background-color: #191919;
