@@ -16,9 +16,9 @@ function Header() {
           <NavLink to="/exhibitions" className={({isActive}) => cn(styles['link'], {
             [styles.active]: isActive
           })}>Выставки</NavLink>
-          <NavLink to="/schedule" className={({isActive}) => cn(styles['link'], {
+          <NavLink to="/articles" className={({isActive}) => cn(styles['link'], {
             [styles.active]: isActive
-          })}>Расписание</NavLink>
+          })}>Статьи</NavLink>
           <NavLink to="/about" className={({isActive}) => cn(styles['link'], {
             [styles.active]: isActive
           })}>О музее</NavLink>
