@@ -1,4 +1,5 @@
 .wrapper {
+  position: relative;
   display: flex;
   justify-content:space-around;
   max-width: 1440px;
@@ -6,6 +7,19 @@
   color: var(--text-color);
   border-top: 1px  solid var(--text-color);
   background-color: var(--black-background-color);  
+  z-index: 1;
+}
+
+
+
+.imgFooter {
+  position: absolute;
+  width: 673px;
+  height: 423px;
+  top: -84px;
+  left: 767px;
+  /* opacity: 50%; */
+  z-index: -1;
 }
 
 .contacts {
@@ -14,13 +28,12 @@
   justify-content: flex-start;
   gap: 34px;
   margin-top: 50px;  
-}
+  }
 
 .contacts img {
   width: 80px;
   height: 80px;
 }
-
 
 
 .phone {
@@ -61,11 +74,12 @@
 }
 
 .active {
-  color: var(--dali-color)
+  color: var(--dali-color);
+  text-decoration: underline;
 }
 
 .link:hover {
-  color: var(--dali-color);
+  color: var(--dali-color);  
 }
 
 .rules {
@@ -90,4 +104,5 @@
   text-align: left;
   gap: 20px;
   margin-top: 50px;
+  margin-right: 95px;
 }

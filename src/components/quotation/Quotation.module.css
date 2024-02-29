@@ -8,6 +8,7 @@
   height: 450px;
   background-color: var(--black-background-color);
   gap: 30px;
+  z-index: 1;
 }
 
 .hrContainer {
@@ -37,4 +38,5 @@
   position: absolute;
   top: 15px;
   left: 50px;
+  z-index: -1;
 }

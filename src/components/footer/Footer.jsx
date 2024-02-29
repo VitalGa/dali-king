@@ -4,7 +4,10 @@ import cn from 'classnames'
 
 const Footer = () => {
   return (
+     
+   
     <div className={styles['wrapper']}>
+       <img src="/footer-heads.png" className={styles['imgFooter']} alt="Картина про две головы" />
       <div className={styles['contacts']}>
         <img src="/bytesize_clock.svg" alt="Логотип часы" />
         <span className={styles['phone']}>+7 (495) 123-45-67</span>
@@ -25,8 +28,7 @@ const Footer = () => {
           })}>О музее</NavLink>
       </div>
       <div className={styles['rules']}>
-        <span>Правила онлайн — посещения</span>
-        <span>info@museumsur.com</span>
+        <span>Правила онлайн — посещения</span>  
         <span>Сотрудничество</span>
         <span>Вакансии</span>         
       </div>
@@ -35,8 +37,8 @@ const Footer = () => {
         <span>Facebook</span>
         <span>Telegram</span>
         <span>Вконтакте</span>
-      </div>
-    </div>
+      </div>      
+    </div>    
   )
 }
 

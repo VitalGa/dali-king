@@ -6,8 +6,7 @@
   justify-content: space-evenly;
   background-color: var(--black-background-color);
   color: var(--text-color);
-  gap: 30px;
-  
+  gap: 30px;  
 }
 
 .logo {
@@ -40,7 +39,8 @@
 }
 
 .active {
-  color: var(--dali-color)
+  color: var(--dali-color);
+  text-decoration: underline;
 }
 
 .link:hover {
