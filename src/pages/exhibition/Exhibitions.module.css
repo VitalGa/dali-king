@@ -121,48 +121,7 @@
   100% { opacity: 1; }
 }
 
-.content {
-  display: flex;
-  flex-direction: column;  
-  align-items:center;   
-  width: 482px;
-  height: 499px;
-  top: 51px;
-  left: 41px;
-  gap: 68px;
-  color: var(--text-color);
-}
 
-.name {
-  font-family: Mak;
-  font-size: 55px;
-  font-weight: 300;
-  line-height: 70px;
-  letter-spacing: 0em;
-  text-align: left;
-  margin: 51px;
-  
-}
-
-.date {
-  font-family: Jost;
-  font-size: 35px;
-  font-weight: 300;
-  line-height: 45px;
-  text-align: left;
-  margin-left: 51px;
-}
-
-.price {
-  font-family: Jost;
-  font-size: 40px;
-  font-weight: 400;
-  line-height: 51px;
-  text-align: left;
-  margin-bottom: 50px;
-}
-
- 
 
 
 

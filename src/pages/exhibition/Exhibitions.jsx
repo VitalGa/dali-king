@@ -1,7 +1,29 @@
-import Button from '../../components/button/Button';
 import styles from './Exhibitions.module.css'; 
+import Card from '../../components/card/Card'
 
 const Exhibitions = () => {
+
+  const data = [
+    { 
+      name: 'Король сюрреализма',
+      date: 'САЛЬВАДОР ДАЛИ  10.08.24—10.08.25',
+      price: 'от 400 руб. / 120 мин',
+  
+    },
+    { 
+      name: 'VIVA LA VIDA',
+      date: 'ФРИДА КАЛО И ДИЕГО РИВЕРА 10.08.25—10.08.25',
+      price: 'от 500 руб. / 120 мин',
+
+    },
+    {
+      name: 'За гранью реальности',
+      date: 'РЕНЕ МАГРИТТ 10.08.24—10.08.25',
+      price: 'от 700 руб. / 120 мин',
+
+    }
+  ]
+
   return (
     <div className={styles['wrapper']}>
       <div className={styles['container']}>
@@ -10,50 +32,40 @@ const Exhibitions = () => {
       </div>
           <div className={styles['row']}>
             <div className={styles['dali-left']}>
-              <div className={styles['content']}>
-                <div className={styles['top']}>
-                  <div className={styles['name']}>Король <br /> сюрреализма</div>
-                  <div className={styles['date']}>САЛЬВАДОР ДАЛИ <br /> 10.08.24—10.08.25</div>
-                </div>
-                <div className={styles['bottom']}>
-                  <div className={styles['price']}>от 400 руб. / 120 мин</div>
-                  <Button >Выбрать выставку</Button>
-                </div>
-              </div>
+
+              <Card
+                name={data[0].name}
+                date={data[0].date}
+                price={data[0].price}
+              />          
               
             </div>
-            <div className={styles['dali-right']}> <span>САЛЬВАДОР<br />ДАЛИ</span></div>
-          </div>
+              <div className={styles['dali-right']}> <span>САЛЬВАДОР<br />ДАЛИ</span></div>
+            </div>
           <div className={styles['row']}>
             <div className={styles['kalo-left']}>ФРИДА КАЛО</div>
             <div className={styles['kalo-right']}>
-            <div className={styles['content']}>
-                <div className={styles['top']}>
-                  <div className={styles['name']}>VIVA LA VIDA</div>
-                  <div className={styles['date']}>ФРИДА КАЛО  И <br /> ДИЕГО РИВЕРА  <br /> 10.08.25—10.08.25</div>
-                </div>
-                <div className={styles['bottom']}>
-                  <div className={styles['price']}>от 400 руб. / 120 мин</div>
-                  <Button >Выбрать выставку</Button>
-                </div>
-              </div>
+
+            <Card
+                name={data[1].name}
+                date={data[1].date}
+                price={data[1].price}
+              /> 
+              
             </div>
           </div>
           <div className={styles['row']}>
             <div className={styles['magrit-left']}>
-            <div className={styles['content']}>
-                <div className={styles['top']}>
-                  <div className={styles['name']}>За гранью <br />реальности</div>
-                  <div className={styles['date']}>РЕНЕ МАГРИТТ <br /> 10.08.24—10.08.25</div>
-                </div>
-                <div className={styles['bottom']}>
-                  <div className={styles['price']}>от 400 руб. / 120 мин</div>
-                  <Button >Выбрать выставку</Button>
-                </div>
-              </div>
+
+            <Card
+                name={data[2].name}
+                date={data[2].date}
+                price={data[2].price}
+              />
+
             </div>
-            <div className={styles['magrit-right']}>РЕНЕ МАГРИТТ</div>
-          </div>
+              <div className={styles['magrit-right']}>РЕНЕ МАГРИТТ</div>
+            </div>
       </div>
       <div className={styles['all']}>
         <img src="/arrow.png" alt="Переход на все выставки" />
