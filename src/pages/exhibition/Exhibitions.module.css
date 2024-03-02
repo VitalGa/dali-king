@@ -108,7 +108,7 @@
 
 .text-bottom {
   font-family: Jost;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 300;
   text-align: center;
   color: var(--text-color);
@@ -119,6 +119,10 @@
   0% { opacity: 1; }
   50% { opacity: 0; }
   100% { opacity: 1; }
+}
+
+.text-bottom:hover {
+   color: var(--dali-color);
 }
 
 

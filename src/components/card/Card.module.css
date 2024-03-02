@@ -37,3 +37,19 @@
   text-align: left;
   margin-bottom: 50px;
 }
+
+.transparent-button {
+  background-color: transparent; 
+  font-family: Jost;
+  font-size: 30px;
+  font-weight: 400;
+  color: var(--text-color);
+  width: 404px;
+  height:80px;
+  padding: 21px, 64px, 21px, 64px;
+  border: 2px solid var(--text-color);
+  }
+
+.transparent-button:hover {
+  opacity: 50%;
+}

@@ -10,7 +10,7 @@ const Card = ({name, date, price}) => {
             </div>
             <div className={styles['bottom']}>
               <div className={styles['price']}>{price}</div>
-              <Button >Выбрать выставку</Button>
+              <Button className={styles['transparent-button']}>Выбрать выставку</Button>
             </div>
     </div>
   )

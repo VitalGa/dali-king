@@ -1,8 +1,8 @@
 import styles from './Button.module.css';
 
-function Button({children}) {
-  return (
-    <button className={styles['button']}>{children}</button>
+function Button({children, className}) {
+  return (     
+    <button className={`${styles['button']} ${className}`}>{children}</button>
   )
 }
 
