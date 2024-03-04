@@ -1,8 +1,16 @@
 import styles from './Card.module.css'
 import Button from '../button/Button'
+import { useState } from 'react';
 
 const Card = ({name, date, price}) => {
-  return (    
+
+  const [text, setText] = useState('Хочу на выставку!')
+
+  const clicked = () => {
+    setText('Купить билет')
+      }
+
+  return (
     <div className={styles['content']}>
             <div className={styles['top']}>
               <div className={styles['name']}>{name}</div>
@@ -10,7 +18,7 @@ const Card = ({name, date, price}) => {
             </div>
             <div className={styles['bottom']}>
               <div className={styles['price']}>{price}</div>
-              <Button className={styles['transparent-button']}>Выбрать выставку</Button>
+              <Button clicked = {clicked} className={styles['transparent-button']}>{text}</Button>
             </div>
     </div>
   )

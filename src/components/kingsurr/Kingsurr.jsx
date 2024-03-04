@@ -2,8 +2,9 @@ import styles from './Kingsurr.module.css';
 import Button from '../button/Button';
 import Marquee from "react-fast-marquee";
 
+
 function Kingsurr() {
-  
+
   return (
   <div className={styles['head']}>
       <div className={styles['announc']}> 
@@ -13,7 +14,7 @@ function Kingsurr() {
             <span>САЛЬВАДОР ДАЛИ</span>
             <span>10.08.23 — 10.08.24 </span>
         </div> 
-        <Button>Купить билет</Button>  
+        <Button >Купить билет</Button>  
             <div className={styles['marquee']}>
                 <Marquee className={styles['text']}>
                   Король сюрреализма&nbsp;&nbsp;&nbsp;Король сюрреализма&nbsp;&nbsp;&nbsp;Король сюрреализма&nbsp;&nbsp;&nbsp;Король сюрреализма&nbsp;&nbsp;&nbsp;Король сюрреализма&nbsp;&nbsp;&nbsp;
