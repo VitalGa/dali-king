@@ -4,10 +4,10 @@ import { useState } from 'react';
 
 const Card = ({name, date, price}) => {
 
-  const [text, setText] = useState('Хочу на выставку!')
+  const [buttonText, setbuttonText] = useState('Хочу на выставку!')
 
   const clicked = () => {
-    setText('Купить билет')
+    setbuttonText('Купить билет')
       }
 
   return (
@@ -18,7 +18,7 @@ const Card = ({name, date, price}) => {
             </div>
             <div className={styles['bottom']}>
               <div className={styles['price']}>{price}</div>
-              <Button clicked = {clicked} className={styles['transparent-button']}>{text}</Button>
+              <Button clicked = {clicked} className={styles['transparent-button']}>{buttonText}</Button>
             </div>
     </div>
   )
