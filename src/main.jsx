@@ -8,6 +8,7 @@ import Error from './pages/Error/Error.jsx'
 import About from './pages/About/About.jsx'
 import Layout from './layout/Menu.jsx'
 import Articles from './pages/Articles/Articles.jsx'
+import PaymentTop from './components/paymentTop/PaymentTop.jsx'
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
   {
     path: '/about',
     element: <About />
+  },
+  {
+    path: '/payment',
+    element: <PaymentTop />
   },
     ]
   },  

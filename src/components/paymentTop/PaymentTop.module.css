@@ -1,0 +1,113 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: var(--black-background-color);
+  padding-left: 70px;
+}
+
+.wrapper  img {
+  width: 726px;
+  height: 447px;
+  margin-right: 20px;
+}
+
+.pay-tick {
+  display: flex;
+
+}
+
+.date {  
+  margin-top: 50px;   
+}
+
+.date img {
+  width: 26.4px;
+  height: 26.4px;   
+  margin-left: 40px; 
+  cursor: pointer;
+}
+
+.time img {
+  width: 26.4px;
+  height: 26.4px;  
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+
+
+.bread-crumbs {
+  display: flex;
+  gap: 10px;
+  font-family: Jost;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 26px;   
+  text-align: center;
+  color: var(--text-color);
+}
+
+.active-span {
+  color: #9A9A9A;
+}
+
+.pay-ticket {
+  font-family: Jost;
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 64px;
+  text-align: left;
+  color: var(--text-color);
+  margin-top: 50px;
+}
+
+.right-top {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  font-family: Jost;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 51px;  
+  text-align: left;
+  color: var(--text-color);  
+}
+
+.right-bottom {
+  display: flex;
+  flex-direction: column;
+  font-family: Jost;
+  font-size: 35px;
+  font-weight: 300;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--text-color);
+  gap: 20px;
+}
+
+.pay span {
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.quantity {
+  display: flex;  
+  gap: 30px;
+  
+}
+
+.minus-plus {
+  display: flex;
+  gap: 45px; 
+  margin-top: 9px;
+}
+
+.minus-plus img {
+  width: 35px;
+  height: 35px;
+  color: var(--text-color);
+  cursor: pointer;
+  margin: 0;
+}

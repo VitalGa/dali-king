@@ -1,6 +1,6 @@
 
 
-const Paid = () => {
+const Table = () => {
   return (
     <div>
       Билеты куплены
@@ -8,4 +8,4 @@ const Paid = () => {
   )
 }
 
-export default Paid
+export default Table

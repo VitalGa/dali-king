@@ -1,10 +1,18 @@
 import styles from './Button.module.css';
 
+function Button({children, className, byTicket, byTicketCard}) {
 
-function Button({children, className, clicked}) {
+  const handleClick = () => {
+    if (byTicket) {
+      byTicket();
+    } 
+    if (byTicketCard) {
+      byTicketCard();
+    }
+  }
 
   return (
-    <button onClick={clicked} className={`${styles['button']} ${className}`}>{children}</button>
+    <button onMouseOver={handleClick} className={`${styles['button']} ${className}`}>{children}</button>
   )
 }
 

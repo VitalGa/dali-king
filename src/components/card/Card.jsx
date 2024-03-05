@@ -6,7 +6,7 @@ const Card = ({name, date, price}) => {
 
   const [buttonText, setbuttonText] = useState('Хочу на выставку!')
 
-  const clicked = () => {
+  const byTicketCard = () => {
     setbuttonText('Купить билет')
       }
 
@@ -18,7 +18,7 @@ const Card = ({name, date, price}) => {
             </div>
             <div className={styles['bottom']}>
               <div className={styles['price']}>{price}</div>
-              <Button clicked = {clicked} className={styles['transparent-button']}>{buttonText}</Button>
+              <Button byTicketCard = {byTicketCard} className={styles['transparent-button']}>{buttonText}</Button>
             </div>
     </div>
   )
