@@ -111,3 +111,53 @@
   cursor: pointer;
   margin: 0;
 }
+
+.sent {
+  font-family: Jost;
+  font-size: 35px;
+  font-weight: 300;  
+  color: var(--text-color);
+}
+
+.radio-top {
+  width: 185px;
+  height: 204px; 
+  gap: 20px;
+  color: var(--text-color);
+}
+
+.radio-bottom {
+  color: var(--text-color);
+}
+
+.card-bank {
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  width: 514px;
+  height: 307px; 
+  gap: 50px;
+  color: var(--text-color);
+}
+
+.card-number {
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start
+}
+
+.validity-cvv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.validity {
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start
+}
+.cvv {
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start
+}

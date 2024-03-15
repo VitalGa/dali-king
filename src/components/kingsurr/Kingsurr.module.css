@@ -1,52 +1,56 @@
 .head {
-  background-image: url(1-head.png);    
-  max-width: 1440px;
+  background-image: url(3-head.png);
   height: 891px;
   display: flex;
   justify-content: center;
-  color: var(--white-color);  
+  color: var(--white-color);
+  border-top: 1px solid var(--white-color);
 }
 
 .announc {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 1430px; 
   height: 670px;
-  gap: 30px;
-  margin-top: 150px;
-  /* overflow: hidden;   */
+  margin-top: 169px;  
 }
 
 .main {
   font-family: Jost;
-  font-size: 40px;
+  font-size: 55px;
   font-weight: 400;
   line-height: 79px;
+  letter-spacing: 0em;
+  margin-bottom: 21px;
 }
 
 .king {
   font-family: Mak;
-  font-size: 77px;
+  font-size: 90px;
   font-weight: 700;
+  line-height: 108px;
+  letter-spacing: 0em; 
+  margin-bottom: 6px;
 }
 
 .dali-date {
   display: flex; 
+  max-width: 1091px;
   font-family: Jost;
   font-size: 35px;
   font-weight: 300;
-  gap: 410px;
+  gap: 480px;
+  margin-bottom: 87px;
 }
 
 .marquee {
   display: flex;
   /* width: fit-content;   */
-  transform: rotate(3.13deg); /* Поворот строки */
+  transform: rotate(3.13deg);
   color: var(--white-color); 
   background-color: var(--black-background-color);
   border: 1px solid var(--text-color);
-  padding: 10px; /* Добавление внутреннего отступа для контента */
+  padding: 23px; /* Добавление внутреннего отступа для контента */
   margin-top: 140px; /* Уменьшение отступа сверху */
 }
 
@@ -54,5 +58,11 @@
   font-family: Mak;
   font-size: 28px;
   font-weight: 300px;
+  line-height: 36px;
+  letter-spacing: 0em;
+}
+
+.button {
+  margin-bottom: -28px;
 }
 

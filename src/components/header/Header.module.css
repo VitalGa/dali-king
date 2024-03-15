@@ -1,36 +1,43 @@
 .header {
   display: flex;
-  align-items: center;
-  max-width: 1440px;
-  height: 133px;
-  justify-content: space-evenly;
+  align-items: center; 
+  height: 133px; 
   background-color: var(--black-background-color);
   color: var(--text-color);
-  gap: 30px;  
+  gap: 40px;  
+  padding-left: 85px;
+  
 }
 
 .logo {
   display: flex;
   align-items:center;
-  gap: 25px;
-  margin-right: 120px;
+  gap: 14px;
+  margin-right: 183px;
 }
 
 .text-museum {
   font-family: var(--font-jost-regular);  
   text-align: left;   
-  font-size: 33px;
-  font-weight: 200;
-  cursor: pointer;
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 33px;
+  letter-spacing: 0em;
+  cursor: pointer; 
 }
 
 .menu {
+  max-width: 578px;
   display: flex;  
-  margin-right: 60px;
-  gap: 50px;
+  justify-content: space-between;  
+  gap: 81px;
   font-family: var(--font-jost-regular);
-  font-size: 25px;
+  font-size: 26px;
   font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0em;
+  margin-right: 90px;
+  margin-left: 1px;
 }
 
 .link {
@@ -50,7 +57,7 @@
 .search-block {
   display: flex;
   align-items:center;  
-  gap: 20px;
+  gap: 26px;
   
 }
 
@@ -64,8 +71,10 @@
 
 .text { 
   font-family: var(--font-jost-regular); 
-  font-size: 22px;
+  font-size: 26px;
   font-weight: 400; 
+  line-height: 35px;
+  letter-spacing: 0em;
   cursor: pointer;
 }
 

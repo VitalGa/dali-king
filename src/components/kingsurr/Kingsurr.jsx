@@ -7,7 +7,7 @@ import { NavLink } from 'react-router-dom';
 
 function Kingsurr() {
 
-  let buttonText = 'Очень хочу на выставку!'
+  let buttonText = 'Купить билет'
   const [textButton, setTextButton] = useState(buttonText)
 
   function byTicket() {
@@ -21,9 +21,9 @@ function Kingsurr() {
         <div className={styles['king']}>Король сюрреализма</div>
         <div className={styles['dali-date']}>
             <span>САЛЬВАДОР ДАЛИ</span>
-            <span>10.08.23 — 10.08.24 </span>
+            <span>10.08.22—10.08.23</span>
         </div> 
-        <NavLink to="/payment" >
+        <NavLink to="/payment" className={styles['button']}>
           <Button byTicket={byTicket}>{textButton}</Button>
         </NavLink>
           

@@ -9,8 +9,8 @@
 .container {
   display: flex;
   flex-direction: column;
-  max-width: 1270px;
-  height: 2061px;
+  /* max-width: 1270px; */
+  /* height: 2061px; */
   border-top: 1px solid #6D7285;
 }
 
@@ -25,7 +25,7 @@
 }
 
 .text {
-  height: 200px; 
+  margin: 94px 0 65px 0;
   font-family: Jost;
   font-size: 50px;
   font-weight: 300;    
@@ -53,11 +53,12 @@
   background-color: #A18B5E;
   font-family: Jost;
   font-size: 70px;
-  font-weight: 300;   
+  font-weight: 300;  
+  line-height: 90px;
+  letter-spacing: 0em;
   color: var(--text-color);
   border: 1px solid var(--text-color);
 }
-
 
 .kalo-left {
   width: 636px;
@@ -102,27 +103,23 @@
 }
 
 .all {
-  margin: 50px;
+  margin: 57px;
   cursor: pointer;  
 }
 
 .text-bottom {
   font-family: Jost;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 300;
+  line-height: 26px;
+  letter-spacing: 0em;
   text-align: center;
   color: var(--text-color);
-  animation: blink 1s infinite;  
-}
-
-@keyframes blink {
-  0% { opacity: 1; }
-  50% { opacity: 0; }
-  100% { opacity: 1; }
+  margin: -2px;
 }
 
 .text-bottom:hover {
-   color: var(--dali-color);
+  color: var(--dali-color);
 }
 
 

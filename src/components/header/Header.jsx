@@ -18,7 +18,7 @@ function Header() {
           })}>Выставки</NavLink>
           <NavLink to="/articles" className={({isActive}) => cn(styles['link'], {
             [styles.active]: isActive
-          })}>Статьи</NavLink>
+          })}>Блог</NavLink>
           <NavLink to="/about" className={({isActive}) => cn(styles['link'], {
             [styles.active]: isActive
           })}>О музее</NavLink>
